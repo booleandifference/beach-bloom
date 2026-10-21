@@ -23,7 +23,8 @@ The reel is where AI moves from the artwork into the storytelling. It combines r
 1. **Landscape footage.** Shots filmed at the mining site and in the studio.
 2. **AI stills.** Images generated with **Nano Banana** (Google's Gemini image model) to create frames that connect the real material to the AI outputs.
 3. **AI video, start frame → end frame.** Clips generated with **Google Veo**, giving it a start frame and an end frame and letting the model create the motion between them. This makes it possible to animate a transformation from one image to another.
-4. **Edit.** Real footage and AI clips cut together in **Adobe Premiere Pro**, with voice-over.
+4. **Audio.** Audio generated with **ElevenLabs**.
+5. **Edit.** Real footage, AI clips and audio cut together in **Adobe Premiere Pro**.
 
 **Why start → end frames matter for storytelling:** the process is a chain of transformations, and start/end-frame generation lets each cut *show* a transformation instead of only pointing to it. You pick two states of the material, and the model fills in what happens between them.
 
